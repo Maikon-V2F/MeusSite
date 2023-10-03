@@ -1,0 +1,223 @@
+@font-face {
+    font-family: tilt;
+    src: url(./TiltWarp-Regular-VariableFont_XROT\,YROT.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    display: inline;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 8vh;
+    color: black;
+    font-family: tilt;
+}
+
+
+a {
+    display: block;
+    width: 16vh;
+    height: 8vh;
+    background-color: orange;
+    font-family: tilt;
+    font-size: 5vh;
+    color: black;
+    border: none;
+    border-radius: 1vh;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    background-color: rgb(136, 82, 2);
+    border: none;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+label {
+    display: inline;
+    font-family: tilt;
+    color: black;
+    font-size: 5vh;
+    margin-left: 2vh;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+.custom_cb input {
+    display: none;
+}
+
+.custom_cb input+label:before {
+    content: '';
+    width: 3vh;
+    height: 3vh;
+    border-radius: 1vh;
+    border: 1px solid black;
+    background-color: white;
+    display: inline-block;
+}
+
+.custom_cb input:checked + label::before{
+    background-color: rgb(0, 119, 255);
+    background-image: url(./content/checkmark.png);
+    background-repeat: no-repeat;
+}
+
+.home_btn{
+    visibility: visible;
+    width: 6vh;
+    height: 3vh;
+    font-size: 2vh;
+    margin: 1vh 0 0vh 1vh;
+}
+
+p{
+    font-family: tilt;
+    font-size: 4vh;
+    color: black;
+}
+
+.links{
+    font-size: 2vh;
+    width: 10vh;
+    height: 3vh;
+    margin-top: 1vh;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#menu{
+    width: cover;
+    height: 50px;
+    background-color: orange;
+    text-align: center;   
+}
+
+.btns{
+    display: inline;
+    width: 150px;
+    height: 35px;
+    margin-right: 35px;
+    margin-top: 7px;
+    padding: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    background-color: #222;
+    border-radius: 15px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+iframe{
+    padding-top: 50px;
+}
+
+img{
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+#form{
+
+}
+
+label{
+    font-size: 35px;
+}
+
+form{
+    background-color: rgb(40, 40, 40);
+    border-radius: 50px;
+}
+
+input{
+    background-color: rgb(35, 35, 35);
+    margin-left: 25px;
+}
+
+#sub{
+    background-color: rgb(80, 80, 80);
+    margin: 15px;
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+    border-radius: 15px;
+}
+
+#foto{
+    width: 500px;
+    margin-right: 50px;
+    text-align: center;
+    display: inline-block;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin-top: 0;
+}
+
+#lbl{
+    margin-left: 60px;
+    color: black;
+    
+}
+
+#cont{
+    margin-top: 100px;
+    display: flex;
+}
+
+#text{
+    font-size: 25px;
+    color: black;
+}
+
+#textdiv{
+    width: 70%;
+    display: inline-block;
+}
+
